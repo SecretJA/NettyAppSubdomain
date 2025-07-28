@@ -6,11 +6,11 @@
 
 
 
-\## ✨ Tính năng chính
+## ✨ Tính năng chính
 
 
 
-\###  Bảo mật nâng cao
+###  Bảo mật nâng cao
 
 \- \*\*Mã hóa RSA 2048-bit\*\* cho trao đổi khóa
 
@@ -24,7 +24,7 @@
 
 
 
-\### 🌐 Quét Subdomain
+### 🌐 Quét Subdomain
 
 \- \*\*Quét subdomain\*\* từ wordlist với 1,000,000+ entries
 
@@ -38,7 +38,7 @@
 
 
 
-\### 💻 Giao diện người dùng
+### 💻 Giao diện người dùng
 
 \- \*\*GUI hiện đại\*\* với FlatLaf theme
 
@@ -52,7 +52,7 @@
 
 
 
-\### 🚀 Kiến trúc mạng
+### 🚀 Kiến trúc mạng
 
 \- \*\*Netty framework\*\* cho hiệu suất cao
 
@@ -66,7 +66,7 @@
 
 
 
-\## 🏗️ Kiến trúc hệ thống
+## 🏗️ Kiến trúc hệ thống
 
 
 
@@ -132,11 +132,11 @@
 
 
 
-\## ️ Công nghệ sử dụng
+## ️ Công nghệ sử dụng
 
 
 
-\### Backend
+### Backend
 
 \- \*\*Java 24\*\* - Ngôn ngữ lập trình chính
 
@@ -150,7 +150,7 @@
 
 
 
-\### Frontend
+### Frontend
 
 \- \*\*Swing\*\* - GUI framework
 
@@ -160,7 +160,7 @@
 
 
 
-\### Security
+### Security
 
 \- \*\*RSA 2048-bit\*\* - Asymmetric encryption
 
@@ -172,11 +172,11 @@
 
 
 
-\## 📦 Cài đặt và chạy
+## 📦 Cài đặt và chạy
 
 
 
-\### Yêu cầu hệ thống
+### Yêu cầu hệ thống
 
 \- Java 24 hoặc cao hơn
 
@@ -186,7 +186,7 @@
 
 
 
-\### Cài đặt
+### Cài đặt
 
 ```bash
 
@@ -218,7 +218,7 @@ mvn exec:java -Dexec.mainClass="client.app.AppClient"
 
 
 
-\### Tạo khóa RSA
+### Tạo khóa RSA
 
 1\. Chạy server trước
 
@@ -230,11 +230,11 @@ mvn exec:java -Dexec.mainClass="client.app.AppClient"
 
 
 
-\##  Cách sử dụng
+##  Cách sử dụng
 
 
 
-\### 1. Khởi động hệ thống
+### 1. Khởi động hệ thống
 
 ```bash
 
@@ -252,7 +252,7 @@ java -cp target/classes client.app.AppClient
 
 
 
-\### 2. Thiết lập kết nối
+### 2. Thiết lập kết nối
 
 1\. \*\*Server\*\*: Tự động khởi động tại port 8080
 
@@ -262,7 +262,7 @@ java -cp target/classes client.app.AppClient
 
 
 
-\### 3. Gửi tin nhắn bảo mật
+### 3. Gửi tin nhắn bảo mật
 
 1\. Nhập tin nhắn vào text field
 
@@ -274,7 +274,7 @@ java -cp target/classes client.app.AppClient
 
 
 
-\### 4. Xem kết quả quét
+### 4. Xem kết quả quét
 
 \- \*\*Server\*\*: Hiển thị log và danh sách subdomain
 
@@ -282,11 +282,11 @@ java -cp target/classes client.app.AppClient
 
 
 
-\## 🔐 Quy trình bảo mật
+## 🔐 Quy trình bảo mật
 
 
 
-\### 1. Trao đổi khóa
+### 1. Trao đổi khóa
 
 ```
 
@@ -296,7 +296,7 @@ Client ←→ Server: RSA Public Key Exchange
 
 
 
-\### 2. Mã hóa tin nhắn
+### 2. Mã hóa tin nhắn
 
 ```
 
@@ -306,7 +306,7 @@ Raw Message → RSA Sign → AES Encrypt → Send
 
 
 
-\### 3. Xác thực và giải mã
+### 3. Xác thực và giải mã
 
 ```
 
@@ -316,7 +316,7 @@ Receive → AES Decrypt → RSA Verify → Process
 
 
 
-\### 4. Lưu trữ khóa
+### 4. Lưu trữ khóa
 
 ```
 
@@ -328,11 +328,11 @@ RSA Keys → PEM Files (Client/Server)
 
 
 
-\## 📊 Hiệu suất
+## 📊 Hiệu suất
 
 
 
-\### Quét Subdomain
+### Quét Subdomain
 
 \- \*\*Wordlist\*\*: 1,000,000+ entries
 
@@ -344,7 +344,7 @@ RSA Keys → PEM Files (Client/Server)
 
 
 
-\### Mã hóa
+### Mã hóa
 
 \- \*\*RSA\*\*: 2048-bit key generation
 
@@ -354,7 +354,7 @@ RSA Keys → PEM Files (Client/Server)
 
 
 
-\## 🗂️ Cấu trúc project
+## 🗂️ Cấu trúc project
 
 
 
@@ -404,11 +404,11 @@ src/main/java/
 
 
 
-\## 🧪 Testing
+## 🧪 Testing
 
 
 
-\### Unit Tests
+### Unit Tests
 
 ```bash
 
@@ -418,7 +418,7 @@ mvn test
 
 
 
-\### Integration Tests
+### Integration Tests
 
 ```bash
 
@@ -432,11 +432,11 @@ mvn exec:java -Dexec.mainClass="client.app.AppClient"
 
 
 
-\##  Tính năng nâng cao
+##  Tính năng nâng cao
 
 
 
-\### 1. Database Management
+### 1. Database Management
 
 \- \*\*SQLite\*\*: Lưu trữ AES keys và IVs
 
@@ -446,7 +446,7 @@ mvn exec:java -Dexec.mainClass="client.app.AppClient"
 
 
 
-\### 2. Network Optimization
+### 2. Network Optimization
 
 \- \*\*Connection pooling\*\*: Tái sử dụng connections
 
@@ -456,7 +456,7 @@ mvn exec:java -Dexec.mainClass="client.app.AppClient"
 
 
 
-\### 3. Security Features
+### 3. Security Features
 
 \- \*\*Key rotation\*\*: Thay đổi khóa định kỳ
 
@@ -466,7 +466,7 @@ mvn exec:java -Dexec.mainClass="client.app.AppClient"
 
 
 
-\## 🤝 Đóng góp
+## 🤝 Đóng góp
 
 
 
@@ -482,27 +482,7 @@ mvn exec:java -Dexec.mainClass="client.app.AppClient"
 
 
 
-\## 📝 License
-
-
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
-\##  Liên hệ
-
-
-
-\- \*\*Email\*\*: your.email@example.com
-
-\- \*\*LinkedIn\*\*: \[Your LinkedIn](https://linkedin.com/in/yourprofile)
-
-\- \*\*GitHub\*\*: \[Your GitHub](https://github.com/yourusername)
-
-
-
-\##  Acknowledgments
+##  Acknowledgments
 
 
 
