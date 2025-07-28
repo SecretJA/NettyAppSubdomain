@@ -14,39 +14,39 @@
 
 - **Mã hóa RSA 2048-bit** cho trao đổi khóa
 
-\- \*\*Mã hóa AES-CBC\*\* cho dữ liệu truyền tải
+- **Mã hóa AES-CBC** cho dữ liệu truyền tải
 
-\- \*\*Chữ ký số SHA256withRSA\*\* để xác thực
+- **Chữ ký số SHA256withRSA** để xác thực
 
-\- \*\*Quản lý khóa an toàn\*\* với PEM/DER format
+- **Quản lý khóa an toàn** với PEM/DER format
 
-\- \*\*Lưu trữ khóa AES\*\* trong SQLite database
+- **Lưu trữ khóa AES** trong SQLite database
 
 
 
 ### 🌐 Quét Subdomain
 
-\- \*\*Quét subdomain\*\* từ wordlist với 1,000,000+ entries
+- **Quét subdomain** từ wordlist với 1,000,000+ entries
 
-\- \*\*Multi-threading\*\* tối ưu (1000 threads)
+- **Multi-threading** tối ưu (1000 threads)
 
-\- \*\*DNS lookup\*\* và HTTP verification
+- **DNS lookup** và HTTP verification
 
-\- \*\*Thống kê chi tiết\*\* về kết quả quét
+- **Thống kê chi tiết** về kết quả quét
 
-\- \*\*Target domain\*\* tùy chỉnh
+- **Target domain** tùy chỉnh
 
 
 
 ### 💻 Giao diện người dùng
 
-\- \*\*GUI hiện đại\*\* với FlatLaf theme
+- **GUI hiện đại** với FlatLaf theme
 
-\- \*\*Real-time logging\*\* với timestamp
+- **Real-time logging** với timestamp
 
-\- \*\*Connection monitoring\*\* 
+- **Connection monitoring** 
 
-\- \*\*Key management\*\* trực quan
+- **Key management** trực quan
 
 \- \*\*Scan results\*\* hiển thị dạng bảng
 
