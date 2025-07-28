@@ -284,5 +284,3 @@ mvn exec:java -Dexec.mainClass="client.app.AppClient"
 ⭐ Nếu bạn thấy dự án hữu ích, đừng quên **star** để ủng hộ nhé!
 
 ```
-
-Nếu bạn cần mình giúp tùy biến thêm hoặc tạo thêm hướng dẫn chi tiết, vui lòng báo nhé!
