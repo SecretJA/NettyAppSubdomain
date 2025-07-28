@@ -12,7 +12,7 @@
 
 ###  Bảo mật nâng cao
 
-\- \*\*Mã hóa RSA 2048-bit\*\* cho trao đổi khóa
+- **Mã hóa RSA 2048-bit** cho trao đổi khóa
 
 \- \*\*Mã hóa AES-CBC\*\* cho dữ liệu truyền tải
 
