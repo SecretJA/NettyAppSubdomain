@@ -1,6 +1,3 @@
-Dưới đây mình đã chỉnh sửa và làm lại file README cho dự án của bạn, giữ nguyên nội dung chính, trình bày rõ ràng, chuẩn Markdown và trông tự nhiên, dễ đọc trên GitHub. Bạn có thể copy-paste trực tiếp vào file `README.md` để hiển thị đẹp mắt, không bị lỗi hiển thị, đồng thời tránh cảm giác sao chép từ AI.
-
-```markdown
 # Secure Chat & Subdomain Scanner
 
 ## 📋 Tổng quan
